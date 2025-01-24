@@ -1,0 +1,78 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsmath,amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titling}
+\usepackage{forest}
+
+
+\usepackage{mdframed}
+\usepackage{arabtex}
+
+\usepackage{xcolor}
+
+\usepackage{polyglossia}
+
+\setmainlanguage{english}
+\setotherlanguage{urdu}
+\newfontfamily\urdufont[Scale=1.25]{jameel.ttf}
+
+\newcommand{\Q}{\text{\texturdu{یکتا}}} % Use this command to type the new quantifier defined.
+
+
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\runningfootrule
+\runningheader{CS/MATH 113, SPRING 2025}{WC 03: Predicate logic and Quantifiers}{\theauthor}
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\firstpageheader{}{}{}
+
+% \printanswers %Uncomment this line
+
+\title{Weekly Challenge 03: Predicate logic and Quantifiers}
+\author{Blingblong} % <=== replace with your student ID, e.g. xy012345
+\date{CS/MATH 113 Discrete Mathematics\\Habib University\\Spring 2025}
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+\begin{document}
+\maketitle
+
+
+
+\begin{center}
+    \texturdu{اسے کون دیکھ سکتا کہ یگانہ ہے وہ یکتا}
+    \\\texturdu{جو دوئی کی بو بھی ہوتی تو کہیں دو چار ہوتا}
+    \begin{flushleft}
+        \hspace*{4.5cm} (\texturdu{مرزا غالب })
+    \end{flushleft}
+\end{center}
+\begin{questions}
+  
+    \titledquestion{Kitnay elements thay?} We have already studied two basic quantifiers in this course so far. For a predicate $P$ with some domain $U$, the existential quantifier $\exists x P(x)$ would mean that there are some $x$ in the domain $D$ that satisfies $P$. But a lot of times ``some'' doesn't suit our need. We might need a more specific quantifier. The $\Q_n$ quantifier is is defined as follows; for a predicate $P(x)$ and some domain $U$, $\Q_n x P(x)$ is true if there are exactly $n$ elements in $U$ for which $P$ is true. As logician/mathematician/computer scientists we need some basic quantifier through which we can define all other quantifiers. You being a smart Discrete math student conjecture that you can define $\Q_n$ quantifier by just using existential quantifier or with just using universal quantifier.
+
+    \begin{parts}
+        \part Define the $\Q_n$ quantifier by just using the existential quantifier.
+        \begin{solution}
+            % Add your solution here
+        \end{solution}
+
+        \part Define the $\Q_n$ quantifier by just using the universal quantifier.
+        \begin{solution}
+            % Add your solution here
+        \end{solution}
+    \end{parts}
+
+      
+\end{questions}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
